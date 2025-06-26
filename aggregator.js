@@ -1,5 +1,5 @@
 async function getTwitchMessages() {
-  return ["[Twitch] DarkReyTM: Привет из Render!"];
+  return [{ text: "[Twitch] DarkReyTM: Привет из Render!" }];
 }
 
 async function getYouTubeMessages() {
