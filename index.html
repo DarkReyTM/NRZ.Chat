@@ -48,7 +48,7 @@
   </div>
 
   <script>
-    const socket = new WebSocket("wss://nrzchat.onrender.com"); //
+    const socket = new WebSocket("ws://localhost:8080"); //
     const chatBox = document.getElementById("chat");
 
     socket.onmessage = (event) => {

@@ -1,13 +1,13 @@
-
 {
-  "name": "chat-aggregator",
+  "name": "nrz-chat",
   "version": "1.0.0",
-  "description": "Сервер агрегатор чатов с Twitch и YouTube",
+  "description": "NRZ chat aggregator",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
-    "ws": "^8.0.0"
+    "tmi.js": "^1.8.5",
+    "ws": "^8.15.1"
   }
 }
