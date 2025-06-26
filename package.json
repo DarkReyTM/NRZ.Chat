@@ -1,0 +1,13 @@
+
+{
+  "name": "chat-aggregator",
+  "version": "1.0.0",
+  "description": "Сервер агрегатор чатов с Twitch и YouTube",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "ws": "^8.0.0"
+  }
+}

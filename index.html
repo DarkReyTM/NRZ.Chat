@@ -48,8 +48,7 @@
   </div>
 
   <script>
-    const socket = new WebSocket("wss://YOUR_SERVER_DOMAIN:PORT"); // замени на свой
-
+    const socket = new WebSocket("wss://nrzchat.onrender.com"); //
     const chatBox = document.getElementById("chat");
 
     socket.onmessage = (event) => {
