@@ -1,9 +1,14 @@
+
+// aggregator.js
+
 async function getTwitchMessages() {
-  return [{ text: "[Twitch] DarkReyTM: Привет из Render!" }];
+  // TODO: подключение к Twitch и получение сообщений
+  return []; // верни массив строк
 }
 
 async function getYouTubeMessages() {
-  return []; // Пока ничего
+  // TODO: подключение к YouTube Live Chat API
+  return []; // верни массив строк
 }
 
 module.exports = {
